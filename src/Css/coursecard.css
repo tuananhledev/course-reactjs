@@ -1,0 +1,69 @@
+ .coursecard {
+    height: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.coursecard:hover {
+    cursor: pointer;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    transition: all ease-in-out 0.3s;
+  }
+.imgcard {
+    width: 100%;
+    height: 150px;
+}
+.titlecard{
+  font-weight: bold;
+}
+.imgmentor {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid #fe6a54;
+    transform: translateY(-50%);
+  }
+  
+  .imgmentor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .imglevel {
+    width: 60px;
+    height: 60px;
+    top: 0;  
+    right: 0;
+    position: absolute;
+  }
+  
+  .imglevel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+  
+.description-3 {
+  display: -webkit-box;
+  max-width: 300px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.countstudents{
+  font-style: italic;
+}
+
+.numberoflessons{
+  font-style: italic;
+}
+
+
+
+

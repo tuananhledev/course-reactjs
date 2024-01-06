@@ -1,0 +1,32 @@
+.carousel {
+   position: relative;
+   /* margin-bottom: 30px; */
+}
+
+.btnWrapper {
+   display: block;
+}
+
+@media screen and (max-width: 768px) {
+   .btnWrapper {
+      display: none;
+   }
+}
+
+.button {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   cursor: pointer;
+}
+.button:hover {
+   color: orange !important;
+}
+.btnPrev {
+   left: 0%;
+   transform: translate(-100%, -50%);
+}
+
+.btnNext {
+   left: 100%;
+}

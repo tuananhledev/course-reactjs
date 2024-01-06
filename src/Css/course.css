@@ -1,0 +1,106 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+  
+  .banner-container {
+    position: relative;
+    margin-top: 64px;
+  }
+  
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: orangered;
+    z-index: 10;
+  }
+
+
+  
+.link-item a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-item a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: orange;
+}
+
+.ant-breadcrumb-separator {
+  color: #fff !important;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+  
+  .pagination-course .ant-pagination-item {
+    background: #D7D7D7;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .pagination-course .ant-pagination-item a:hover {
+    background: #FF4500;
+  }
+  
+  .pagination-course .ant-pagination-item-active {
+    border-color: #FF4500;
+  }
+  
+  .pagination-course .ant-pagination-item-active a {
+    background-color: #FF4500;
+    color: #fff;
+  }
+  
+  .pagination-course .ant-pagination-item-active a:hover {
+    background-color: #FF4500;
+    color: white;
+  }
+  
+  .pagination-course .ant-pagination-item-active:hover {
+    border-color: #FF4500;
+  }
+  
+  .pagination-course .ant-pagination-prev,
+  .pagination-course .ant-pagination-next {
+    border-radius: 50%;
+    overflow: hidden;
+    background: #D7D7D7;
+  }
+  
+  .pagination-course .ant-pagination-prev:hover,
+  .pagination-course .ant-pagination-next:hover {
+    background: #FF4500;
+  }
+  
+  .pagination-course .ant-pagination-disabled {
+    display: none;
+  }
+  
+

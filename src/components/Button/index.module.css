@@ -1,0 +1,19 @@
+.button {
+   font-size: 14px;
+   z-index: 10;
+   color: #fff;
+   background: #ff630e;
+   font-weight: bold;
+   text-transform: uppercase;
+   border: 1px solid #ff630e;
+}
+.button:hover {
+   color: #ff630e;
+   background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+   .button {
+      font-size: 12px;
+   }
+}

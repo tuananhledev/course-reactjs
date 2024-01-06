@@ -1,0 +1,50 @@
+.footer {
+    background-color: #07042e;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.f-title,
+.f-icon {
+    font-weight: bold;
+}
+
+.f-title-w {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.f-title {
+    font-size: 16px;
+    color: #f7630e;
+}
+
+.f-icon {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+
+.f-list a {
+    display: block;
+    font-size: 15px;
+    margin: 4px 0;
+    color: white;
+}
+
+.f-list a:hover {
+    text-decoration: none;
+    color: #f4610b;
+}
+
+.contact-title {
+    font-size: 16px;
+}
+
+.contact-icon {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}

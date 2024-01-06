@@ -1,0 +1,246 @@
+/*****Banner-Home******/
+.home {
+  margin-top: 64px;
+}
+.banner-home {
+  padding: 12% 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.banner-home::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(5, 1, 51, 0.7);
+}
+.img-banner-home{
+  background-image: url('/public//images/banner.jpg');
+}
+.banner-home .banner-content {
+  position: relative;
+  text-align: center;
+}
+.banner-content h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff630e;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.banner-content h2 {
+  font-weight: bold;
+  color: #ffff;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  color: #ffff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0 200px;
+}
+.btn-home{
+  border-radius: 5px;
+  border: 1px solid #ff630e; 
+  font-size: 14px;
+  z-index: 10;
+  color: #fff;
+  background: #ff630e;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-home:hover{
+  color: #ff630e;
+  background-color: #fff;
+}
+/*****About-Home******/
+.img-about-section{
+  background-image: url('/public/images/background.jpg');
+}
+.about-section {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.title-about{
+  font-size: 20px;
+}
+.section-header {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-content {
+  position: relative;
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #000;
+  overflow: hidden;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/******Advantagepoint-Home*******/
+.advantage-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  vertical-align: middle;
+  color: #ff630e;
+}
+.iconadvantagepoint{
+  font-size: 25px;
+}
+
+
+/********Objective Home ********/
+.left-home{
+  width: 50%;
+  text-align: center;
+  }
+  .right-home{
+  width: 50%;
+  text-align: center;
+  }
+  .banner-3-home{
+  align-items: center;
+  }
+  .banner-img-3-home{
+  position: relative;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  }
+  .banner-left-home{
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+  clip-path: polygon(0 0, 100% 16%, 100% 100%, 0 100%);
+  filter: brightness(45%);
+  transition: filter 0.3s ease-in-out;
+  }
+  .banner-right-home{
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+  clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0 100%);
+  filter: brightness(45%);
+  transition: filter 0.3s ease-in-out;
+  }
+  .banner-left-home:hover {
+  filter: brightness(100%);
+  }
+  .banner-right-home:hover {
+  filter: brightness(100%);
+  }
+  .title-33-home{
+    font-size: 20px;
+    margin-block: unset;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    height: 400px;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .title-banner-5-home{
+  color: white;
+  font-size: 35px;    
+  font-weight: bold;
+  }
+  .title-banner-6-home{
+  color: white;
+  font-size: 20px;    
+  font-weight: bold;
+  }
+  .centered-1-home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: -25%;
+  }
+  .centered-2-home{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-left: 25%;
+  }
+  .left-home{
+  width: 50%;
+  text-align: center;
+  }
+  .right-home{
+    width: 50%;
+    text-align: center;
+  }
+  .full-1-home{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+  }
+  
+
+
+/*************Responsive*************/
+@media screen and (max-width: 768px) {
+  .btn-banner-home {
+     font-size: 12px;
+  }
+  /*Banner-home*/
+  .banner-home {
+    padding: 10% 0;
+ }
+ .banner-content h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+ }
+ .banner-content h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+ }
+ .banner-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+ }
+}
+
+
+
+.courses-section{
+  margin-top: 70px;
+}
+
